@@ -1,0 +1,124 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<!-- <div class="fh5co-loader"></div> --> <!-- BU ŞEKİLDE YORUM SATIRI YAPABİLİRSİN -->
+
+
+<div id="page">
+
+    <!-- NAVIGATION -->
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div id="fh5co-logo"><a href="#">Wedding<strong>.</strong></a></div>
+                </div>
+                <div class="col-xs-10 text-right menu-1">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Story</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url('@Url.Content("~/images/buse.jpeg")');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <div class="display-t">
+                        <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                            <h1>Buse &amp; Murat</h1>
+                            <h2>We Are Getting Married</h2>
+                            <div class="simply-countdown simply-countdown-one"></div>
+                            <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Çiftin Tanıtımı -->
+    <div id="fh5co-couple">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                    <h2>Merhaba!</h2>
+                    <h3>28 Haziran 2025, İstanbul</h3>
+                    <p>Kına gecemize sizleri de bekliyoruz!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                    <h2>Merhaba!</h2>
+                    <h3>5 Temmuz 2025, Antalya</h3>
+                    <p>Düğünümüze sizleri de bekliyoruz!</p>
+                </div>
+            </div>
+            <div class="couple-wrap animate-box">
+                <div class="couple-half">
+                    <div class="groom">
+                        <img src="@Url.Content("~/images/groom.jpg")" alt="groom" class="img-responsive">
+                    </div>
+                    <div class="desc-groom">
+                        <h3>Buse</h3>
+                        <p>Burası  hakkında kısa bir tanıtım olabilir.</p>
+                    </div>
+                </div>
+                <p class="heart text-center"><i class="icon-heart2"></i></p>
+                <div class="couple-half">
+                    <div class="bride">
+                        <img src="@Url.Content("~/images/bride.jpg")" alt="bride" class="img-responsive">
+                    </div>
+                    <div class="desc-bride">
+                        <h3>Murat</h3>
+                        <p>Burası  hakkında kısa bir tanıtım olabilir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Devamı varsa buraya ekleyebilirsin -->
+
+</div>
+<div class="text-center" style="margin: 40px;">
+    <h2>Etkinlik Bilgileri</h2>
+
+    <!-- Kına Gecesi -->
+    <div style="margin-bottom: 30px;">
+        <h3>Kına Gecesi</h3>
+        <p><strong>Tarih:</strong> 28 Haziran 2025</p>
+        <p><strong>Yer:</strong> Ballıca Köyü, Pendik, İstanbul</p>
+        <p><strong>Başlangıç:</strong> 19:00</p>
+        <a href="https://www.google.com/maps?q=40.9973816,29.4012216" target="_blank" class="btn btn-primary">
+            Haritalarda Aç (Google / Apple)
+        </a>
+        <div style="margin-top: 20px;">
+            <iframe src="https://www.google.com/maps?q=40.9973816,29.4012216&output=embed" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <hr style="margin: 40px 0;">
+
+    <!-- Düğün -->
+    <div style="margin-bottom: 30px;">
+        <h3>Düğün</h3>
+        <p><strong>Tarih:</strong> 5 Temmuz 2025</p>
+        <p><strong>Yer:</strong> Club Hotel Sera, Antalya</p>
+        <p><strong>Başlangıç:</strong> 19:00</p>
+        <a href="https://www.google.com/maps?q=36.84927,30.8061455" target="_blank" class="btn btn-success">
+            Haritalarda Aç (Google / Apple)
+        </a>
+        <div style="margin-top: 20px;">
+            <iframe src="https://www.google.com/maps?q=36.84927,30.8061455&output=embed" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
